@@ -1,0 +1,7 @@
+parameters:
+    #normalizer
+    maven_ebay_connector.normalizer.ebay_product.class: Maven\Bundle\EbayConnectorBundle\Serializer\Normalizer\EbayProductNormalizer
+
+services:
+    maven_ebay_connector.normalizer.ebay_product:
+        class: "%maven_ebay_connector.normalizer.ebay_product.class%"

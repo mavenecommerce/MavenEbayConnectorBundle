@@ -1,0 +1,150 @@
+attributes:
+    condition:
+        labels:
+            en_US: 'Ebay product condition'
+            fr_FR: 'Ebay état du produit'
+            de_DE: 'Ebay Produkt Zustand'
+        type: pim_catalog_simpleselect
+        group: ebay
+        useableAsGridFilter: false
+        options:
+            1000:
+                code: 1000
+                labels: { fr_FR: 'Nouveau', en_US: 'New', de_DE: 'Neu' }
+            1500:
+                code: 1500
+                labels: { fr_FR: 'Nouveau autre', en_US: 'New other', de_DE: 'Neue anderen' }
+            1750:
+                code: 1750
+                labels: { fr_FR: 'Nouveau avec défaut', en_US: 'New with defects', de_DE: 'Neu mit Defekt' }
+            2000:
+                code: 2000
+                labels:
+                    fr_FR: 'Fabricant rénové'
+                    en_US: 'Manufacturer refurbished'
+                    de_DE: 'Hersteller renoviert'
+            2500:
+                code: 2500
+                labels: { fr_FR: 'Vendeur rénové', en_US: 'Seller refurbished', de_DE: 'Verkäufer renoviert' }
+            3000:
+                code: 3000
+                labels: { fr_FR: 'Utilisé', en_US: 'Used', de_DE: 'Benutzt' }
+            4000:
+                code: 4000
+                labels: { fr_FR: 'Très bon', en_US: 'Very Good', de_DE: 'Sehr gut' }
+            5000:
+                code: 5000
+                labels: { fr_FR: 'Bien', en_US: 'Good', de_DE: 'Gut' }
+            6000:
+                code: 6000
+                labels: { fr_FR: 'Acceptable', en_US: 'Acceptable', de_DE: 'Akzeptabel' }
+            7000:
+                code: 7000
+                labels:
+                    fr_FR: 'Pour les pièces ou ne fonctionne pas'
+                    en_US: 'For parts or not working'
+                    de_DE: 'Für Teile oder nicht funktioniert'
+    listingDuration:
+        labels:
+            en_US: 'Listing Duration Codetype'
+            fr_FR: 'Listing Durée CodeType'
+            de_DE: 'Ebay Produkt Zustand'
+        type: pim_catalog_simpleselect
+        group: ebay
+        useableAsGridFilter: false
+        options:
+            Days_1:
+                code: Days_1
+                labels: { fr_FR: 'Days_1', en_US: 'Days_1', de_DE: 'Days_1' }
+            Days_3:
+                code: Days_3
+                labels: { fr_FR: 'Days_3', en_US: 'Days_3', de_DE: 'Days_3' }
+            Days_5:
+                code: Days_5
+                labels: { fr_FR: 'Days_5', en_US: 'Days_5', de_DE: 'Days_5' }
+            Days_7:
+                code: Days_7
+                labels: { fr_FR: 'Days_7', en_US: 'Days_7', de_DE: 'Days_7' }
+            Days_10:
+                code: Days_10
+                labels: { fr_FR: 'Days_10', en_US: 'Days_10', de_DE: 'Days_10' }
+            Days_14:
+                code: Days_14
+                labels: { fr_FR: 'Days_14', en_US: 'Days_14', de_DE: 'Days_14' }
+            Days_21:
+                code: Days_21
+                labels: { fr_FR: 'Days_21', en_US: 'Days_21', de_DE: 'Days_21' }
+            Days_30:
+                code: Days_30
+                labels: { fr_FR: 'Days_30', en_US: 'Days_30', de_DE: 'Days_30' }
+            Days_60:
+                code: Days_60
+                labels: { fr_FR: 'Days_60', en_US: 'Days_60', de_DE: 'Days_60' }
+            Days_90:
+                code: Days_90
+                labels: { fr_FR: 'Days_90', en_US: 'Days_90', de_DE: 'Days_90' }
+            Days_120:
+                code: Days_120
+                labels: { fr_FR: 'Days_120', en_US: 'Days_120', de_DE: 'Days_120' }
+            GTC:
+                code: GTC
+                labels: { fr_FR: 'GTC', en_US: 'GTC', de_DE: 'GTC' }
+    quantity:
+        labels:
+            en_US: 'Quantity'
+            fr_FR: 'Quantity'
+            de_DE: 'Quantity'
+        type: pim_catalog_number
+        group: ebay
+        useableAsGridFilter: false
+        decimalsAllowed: false
+        negativeAllowed: false
+    dispatchTimeMax:
+        labels:
+            en_US: 'Dispatch TimeMax DetailsType'
+            fr_FR: 'Dispatch TimeMax DetailsType'
+            de_DE: 'Dispatch TimeMax DetailsType'
+        type: pim_catalog_number
+        group: ebay
+        useableAsGridFilter: false
+        decimalsAllowed: false
+        negativeAllowed: false
+    listingType:
+        labels:
+            en_US: 'Listing type'
+            fr_FR: 'Listing type'
+            de_DE: 'Listing type'
+        type: pim_catalog_simpleselect
+        group: ebay
+        useableAsGridFilter: false
+        options:
+            AdType:
+                code: AdType
+                labels: { fr_FR: 'AdType', en_US: 'AdType', de_DE: 'AdType' }
+            Auction:
+                code: Auction
+                labels: { fr_FR: 'Auction', en_US: 'Auction', de_DE: 'Auction' }
+            Chinese:
+                code: Chinese
+                labels: { fr_FR: 'Chinese', en_US: 'Chinese', de_DE: 'Chinese' }
+            CustomCode:
+                code: CustomCode
+                labels: { fr_FR: 'CustomCode', en_US: 'CustomCode', de_DE: 'CustomCode' }
+            FixedPriceItem:
+                code: FixedPriceItem
+                labels: { fr_FR: 'FixedPriceItem', en_US: 'FixedPriceItem', de_DE: 'FixedPriceItem' }
+            Half:
+                code: Half
+                labels: { fr_FR: 'Half', en_US: 'Half', de_DE: 'Half' }
+            LeadGeneration:
+                code: LeadGeneration
+                labels: { fr_FR: 'LeadGeneration', en_US: 'LeadGeneration', de_DE: 'LeadGeneration' }
+            PersonalOffer:
+                code: PersonalOffer
+                labels: { fr_FR: 'PersonalOffer', en_US: 'PersonalOffer', de_DE: 'PersonalOffer' }
+            Shopping:
+                code: Shopping
+                labels: { fr_FR: 'Shopping', en_US: 'Shopping', de_DE: 'Shopping' }
+            Unknown:
+                code: Unknown
+                labels: { fr_FR: 'Unknown', en_US: 'Unknown', de_DE: 'Unknown' }

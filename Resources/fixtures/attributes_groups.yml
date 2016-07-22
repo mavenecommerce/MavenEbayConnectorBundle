@@ -1,0 +1,6 @@
+attribute_groups:
+    ebay:
+        labels:
+            en_US: Ebay
+            fr_FR: Ebay
+            de_DE: Ebay

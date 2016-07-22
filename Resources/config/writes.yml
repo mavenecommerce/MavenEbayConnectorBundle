@@ -1,0 +1,8 @@
+parameters:
+    maven_ebay_connector.writer.ebay_product.class: Maven\Bundle\EbayConnectorBundle\Writer\Ebay\EbayProductWriter
+
+services:
+    maven_ebay_connector.writer.ebay_product:
+        class: "%maven_ebay_connector.writer.ebay_product.class%"
+        arguments:
+            - '@pim_serializer.encoder.xml'

@@ -1,0 +1,13 @@
+connector:
+    name: Ebay Connector
+    jobs:
+        ebay_job:
+            title: maven_ebay_connector.jobs.ebay_job.title
+            type: export
+            steps:
+                export:
+                    title: maven_ebay_connector.jobs.ebay_job.export.title
+                    services:
+                        reader:    pim_base_connector.reader.doctrine.product
+                        processor: maven_ebay_connector.processor.product_to_ebay_item
+                        writer:    maven_ebay_connector.writer.ebay_product

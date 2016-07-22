@@ -1,0 +1,39 @@
+{
+    "name": "mavenecommerce/ebay-connector-bundle",
+    "description": "Added ebay connector to Akeneo PIM",
+    "keywords": [
+        "shipping",
+        "ebay",
+        "akeneo",
+        "connector",
+        "pim"
+    ],
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Andrii Korolov",
+            "homepage": "https://www.mavenecommerce.com"
+        },
+        {
+            "name": "Alex Levchenia",
+            "email": "levlexx@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "akeneo/pim-community-dev": "1.5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Maven\\Bundle\\EbayConnectorBundle": "src/"
+        }
+    },
+    "target-dir": "src/Maven/Bundle/EbayConnectorBundle",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}

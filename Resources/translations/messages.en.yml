@@ -1,0 +1,61 @@
+maven_ebay_connector:
+    jobs:
+        ebay_job:
+            title: Ebay job
+            export.title: Ebay export
+    ebay:
+        sandbox:
+            dev_id:
+                label: Sandbox Dev ID
+                help: Enter here your Dev ID key from ebay
+            app_id:
+                label: Sandbox App ID
+                help: Enter here your App ID key from ebay
+            cert_id:
+                label: Sandbox Cert ID
+                help: Enter here your Cert ID key from ebay
+            auth_token:
+                label: Sandbox Auth Token
+                help: Enter here your Auth ID key from ebay
+        production:
+            label: Use production
+            help: To test api disable this action.
+            dev_id:
+                label: Production Dev ID
+                help: Enter here your Dev ID key from ebay
+            app_id:
+                label: Production App ID
+                help: Enter here your App ID key from ebay
+            cert_id:
+                label: Production Cert ID
+                help: Enter here your Cert ID key from ebay
+            auth_token:
+                label: Production Auth Token
+                help: Enter here your Auth ID key from ebay
+        siteId:
+            label: Site id
+            help: Put here site id. It can only number(0 = US,  2 = Canada, 3 = UK,...)
+        paypal:
+            email:
+                label: PayPal email
+                help: Please provide your PayPal email address.
+        base_url:
+            label: Base site url
+            help: Please provide your Akeneo site url, it's needs for correct export images.
+        postal_code:
+            label: Postal Code
+            help: Please provide postal code of the your products location
+        country:
+            label: Country code
+            help: Please put here country code
+        refund_option:
+            label: Refund Option
+            help: Provide your refund policity for ebay
+        return_description:
+            label: Return description
+            help: Please provide your return policy
+        shipping_service:
+            label: Shipping service code
+            help: 'You can get valide codes in developer ebay documentation'
+        free_shipping.label: Is shipping free?
+        shipping_cost.label: Shipping cost

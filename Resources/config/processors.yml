@@ -1,0 +1,10 @@
+parameters:
+    maven_ebay_connector.processor.product_to_ebay_item.class: Maven\Bundle\EbayConnectorBundle\Processor\ProductToEbayItemProcessor
+
+services:
+    maven_ebay_connector.processor.product_to_ebay_item:
+        class: "%maven_ebay_connector.processor.product_to_ebay_item.class%"
+        arguments:
+            - '@maven_ebay_connector.normalizer.ebay_product'
+            - '@pim_catalog.manager.channel'
+            - '@pim_catalog.builder.product'

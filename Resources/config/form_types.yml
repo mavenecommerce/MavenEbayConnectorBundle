@@ -1,0 +1,3 @@
+parameters:
+    pim_enrich.form.type.category.class: Maven\Bundle\EbayConnectorBundle\Form\Type\CategoryType
+    pim_enrich.view_element.category.tab.property.template: 'MavenEbayConnectorBundle:CategoryTree:Tab/property.html.twig'

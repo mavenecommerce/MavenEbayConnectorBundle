@@ -1,0 +1,19 @@
+language: php
+sudo: false
+
+php:
+ - 5.5
+ - 5.6
+ - 7.0
+
+matrix:
+  fast_finish: true
+
+before_script:
+  - wget https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
+  - wget https://phar.phpunit.de/phpcpd.phar
+
+script:
+ - php phpcs.phar --encoding=utf-8 --extensions=php --standard=psr2 --ignore=vendor .
+ - php phpcpd.phar --min-lines 25 --verbose --exclude vendor .
+
